@@ -1,0 +1,136 @@
+body{
+    background: black;
+    color: mediumpurple;
+}
+header.LosPives{
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color:black; 
+    height: 90px;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+header.LosPives h1{
+    text-align: center;
+    height: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-size: 7rem;
+}
+
+header.LosPives article{
+    text-align: center;
+}
+
+header.LosPives article img{
+    width: 200px;
+}
+home header{
+    
+}
+instalacion header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+configuracion header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+configuracion-ip header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+instalar-aplicaciones header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+crear-usuarios header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+instalacion-owncloud header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+configuracion-owncloud header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+seguridad-https header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+diseno-robot header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+combate-robot header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+configuracion-ip header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+conexion-robot header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+usuarios header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+caidas-de-red header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+/*estilo del menu*/
+.navbar-inverse { background-color: black;}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: mediumpurple}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: black}
+.dropdown-menu { background-color: mediumpurple}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: darkslateblue}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: mediumpurple}
+.navbar-inverse .navbar-brand { color: mediumpurple}
+.navbar-inverse .navbar-brand:hover { color: mediumpurple}
+.navbar-inverse .navbar-nav>li>a { color: mediumpurple}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: darkslateblue}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: mediumpurple}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: darkslateblue}
+.dropdown-menu>li>a { color: black}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: mediumpurple}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: mediumpurple}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: mediumpurple}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: mediumpurple}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: mediumpurple}
+/*fin del estilo del menu*/
