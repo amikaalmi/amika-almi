@@ -1,0 +1,187 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:02 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    4 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S<     0:00 [mm_percpu_wq]
+    7 ?        S      0:00 [ksoftirqd/0]
+    8 ?        S      0:01 [rcu_sched]
+    9 ?        S      0:00 [rcu_bh]
+   10 ?        S      0:00 [migration/0]
+   11 ?        S      0:00 [watchdog/0]
+   12 ?        S      0:00 [cpuhp/0]
+   13 ?        S      0:00 [kdevtmpfs]
+   14 ?        S<     0:00 [netns]
+   15 ?        S      0:00 [khungtaskd]
+   16 ?        S      0:00 [oom_reaper]
+   17 ?        S<     0:00 [writeback]
+   18 ?        S      0:00 [kcompactd0]
+   19 ?        SN     0:00 [ksmd]
+   20 ?        SN     0:00 [khugepaged]
+   21 ?        S<     0:00 [crypto]
+   22 ?        S<     0:00 [kintegrityd]
+   23 ?        S<     0:00 [kblockd]
+   24 ?        S<     0:00 [ata_sff]
+   25 ?        S<     0:00 [md]
+   26 ?        S<     0:00 [edac-poller]
+   27 ?        S<     0:00 [devfreq_wq]
+   28 ?        S<     0:00 [watchdogd]
+   32 ?        S      0:00 [kauditd]
+   33 ?        S      0:01 [kswapd0]
+   34 ?        S      0:00 [ecryptfs-kthrea]
+   76 ?        S<     0:00 [kthrotld]
+   77 ?        S<     0:00 [acpi_thermal_pm]
+   78 ?        S      0:00 [scsi_eh_0]
+   79 ?        S<     0:00 [scsi_tmf_0]
+   80 ?        S      0:00 [scsi_eh_1]
+   81 ?        S<     0:00 [scsi_tmf_1]
+   87 ?        S<     0:00 [ipv6_addrconf]
+  112 ?        S<     0:00 [charger_manager]
+  152 ?        S      0:00 [scsi_eh_2]
+  153 ?        S<     0:00 [scsi_tmf_2]
+  154 ?        S      0:00 [scsi_eh_3]
+  155 ?        S<     0:00 [scsi_tmf_3]
+  158 ?        S<     0:00 [kworker/0:1H]
+  182 ?        S      0:00 [jbd2/sda1-8]
+  183 ?        S<     0:00 [ext4-rsv-conver]
+  220 ?        Ss     0:00 /lib/systemd/systemd-journald
+  249 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  334 ?        S<     0:00 [iprt-VBoxWQueue]
+  361 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+  365 ?        S<     0:00 [ttm_swap]
+  661 ?        Ss     0:00 /lib/systemd/systemd-logind
+  662 ?        Ss     0:00 /usr/sbin/acpid
+  664 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+  665 ?        Ss     0:00 avahi-daemon: running [fernan-VirtualBox.local]
+  674 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  693 ?        Ss     0:00 /usr/sbin/cron -f
+  695 ?        Ssl    0:00 /usr/sbin/ModemManager
+  697 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  722 ?        S      0:00 avahi-daemon: chroot helper
+  749 ?        Ss     0:00 /usr/sbin/openvpn --daemon ovpn-server --status /run/openvpn/server.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/server.conf --writepid /run/openvpn/server.pid
+  774 ?        Ssl    0:00 /usr/sbin/NetworkManager --no-daemon
+  776 ?        Ssl    0:00 /usr/lib/snapd/snapd
+  792 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+  802 ?        SLsl   0:00 /usr/sbin/lightdm
+  889 tty7     Ssl+   3:34 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  903 ?        Ss     0:00 /usr/sbin/sshd -D
+  906 ?        Ssl    0:00 /usr/sbin/named -f -u bind
+  916 ?        Ssl    0:02 /usr/sbin/mysqld
+  950 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-35372762-b2ef-3469-8e64-93f94b0ec502-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+ 1033 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1083 ?        Ss     0:00 php-fpm: master process (/etc/php/7.0/fpm/php-fpm.conf)
+ 1085 ?        S      0:00 php-fpm: pool www
+ 1086 ?        S      0:00 php-fpm: pool www
+ 1133 ?        Ssl    0:00 /usr/bin/whoopsie -f
+ 1187 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 1315 ?        Ss     0:00 /usr/sbin/apache2 -k start
+ 1391 ?        Ss     0:00 /usr/sbin/nmbd -D
+ 1464 ?        Ss     0:00 /usr/sbin/smbd -D
+ 1477 ?        S      0:00 /usr/sbin/smbd -D
+ 1514 ?        S      0:00 /usr/sbin/smbd -D
+ 1724 ?        Sl     0:00 lightdm --session-child 12 19
+ 1804 ?        SNsl   0:00 /usr/lib/rtkit/rtkit-daemon
+ 1820 ?        Ssl    0:00 /usr/lib/upower/upowerd
+ 1847 ?        Ssl    0:00 /usr/lib/colord/colord
+ 1988 ?        Ss     0:00 /lib/systemd/systemd --user
+ 1989 ?        S      0:00 (sd-pam)
+ 2048 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 2076 ?        Ss     0:00 /sbin/upstart --user
+ 2164 ?        S      0:00 upstart-udev-bridge --daemon --user
+ 2172 ?        Ss     0:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-9fWwPvzhcN
+ 2184 ?        Ss     0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ 2205 ?        S      0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+ 2207 ?        S      0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ 2209 ?        S      0:00 upstart-file-bridge --daemon --user
+ 2227 ?        Ssl    0:03 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+ 2236 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+ 2241 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 2245 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
+ 2257 ?        Ssl    0:02 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ 2258 ?        Sl     0:01 /usr/lib/ibus/ibus-ui-gtk3
+ 2262 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ 2276 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 2285 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 2288 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 2291 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
+ 2298 ?        Ss     0:00 gpg-agent --homedir /home/fernan/.gnupg --use-standard-socket --daemon
+ 2321 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ 2323 ?        Ssl    0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ 2336 ?        Ssl    0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+ 2344 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+ 2370 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ 2371 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ 2379 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ 2381 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ 2385 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+ 2386 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ 2390 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ 2391 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 2398 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ 2424 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ 2428 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ 2443 ?        Sl     0:00 /usr/lib/evolution/evolution-source-registry
+ 2478 ?        Rsl    8:54 compiz
+ 2510 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory
+ 2519 ?        Sl     0:08 nautilus -n
+ 2523 ?        SLl    0:07 /usr/bin/gnome-software --gapplication-service
+ 2528 ?        Sl     0:00 nm-applet
+ 2541 ?        Sl     0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ 2543 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 2548 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 2556 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
+ 2558 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+ 2568 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2573 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2582 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ 2588 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2510x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2510/2
+ 2590 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 2604 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2510x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2510/3
+ 2620 ?        Sl     0:00 /usr/lib/evolution/evolution-addressbook-factory
+ 2627 ?        Sl     0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2620x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2620/2
+ 2655 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+ 2674 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+ 3128 ?        Sl     0:00 zeitgeist-datahub
+ 3135 ?        S      0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+ 3151 ?        Sl     0:00 /usr/bin/zeitgeist-daemon
+ 3158 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ 3174 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+ 3207 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+ 3213 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ 3223 ?        Sl     0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ 3224 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ 3333 ?        SLl    0:59 /usr/lib/chromium-browser/chromium-browser --enable-pinch
+ 3342 ?        S      0:00 /usr/lib/chromium-browser/chromium-browser --type=zygote
+ 3344 ?        S      0:00 /usr/lib/chromium-browser/chromium-browser --type=zygote
+ 3396 ?        Sl     0:00 /usr/lib/chromium-browser/chromium-browser --type=gpu-process --field-trial-handle=13955048010833141874,7710104200607019583,131072 --gpu-preferences=KAAAAAAAAACAAACAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=70B91343810918A68788A98526E6C022
+ 3401 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+ 3412 ?        S      0:00 /usr/lib/chromium-browser/chromium-browser --type=-broker
+ 3542 ?        Sl     0:00 update-notifier
+ 3923 ?        Sl     0:33 /usr/lib/chromium-browser/chromium-browser --type=renderer --field-trial-handle=13955048010833141874,7710104200607019583,131072 --disable-gpu-compositing --service-pipe-token=54234B77F6089C47D37A3C0AA23B2817 --lang=es --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=1 --enable-compositor-image-animations --service-request-channel-token=54234B77F6089C47D37A3C0AA23B2817 --renderer-client-id=8 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3989 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ 4274 ?        Ss     0:00 /usr/sbin/cupsd -l
+ 4275 ?        Ssl    0:00 /usr/sbin/cups-browsed
+ 4281 ?        S      0:00 /usr/lib/cups/notifier/dbus dbus://
+ 4284 ?        S      0:00 /usr/sbin/apache2 -k start
+ 4285 ?        S      0:00 /usr/sbin/apache2 -k start
+ 4286 ?        S      0:00 /usr/sbin/apache2 -k start
+ 4287 ?        S      0:00 /usr/sbin/apache2 -k start
+ 4288 ?        S      0:00 /usr/sbin/apache2 -k start
+ 4575 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+ 4598 ?        Sl     0:05 /usr/lib/gnome-terminal/gnome-terminal-server
+ 4605 pts/1    Ss     0:00 bash
+ 4628 pts/1    S      0:00 sudo -s
+ 4629 pts/1    S      0:00 /bin/bash
+ 4669 ?        Sl     0:00 /usr/lib/chromium-browser/chromium-browser --type=utility --field-trial-handle=13955048010833141874,7710104200607019583,131072 --lang=es --service-sandbox-type=utility --service-request-channel-token=FD5468C0DB7354BC42F14AB30A42088E --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 4748 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-smb-browse --spawner :1.5 /org/gtk/gvfs/exec_spaw/7
+ 4757 ?        SLl    0:00 /usr/lib/gvfs/gvfsd-smb --spawner :1.5 /org/gtk/gvfs/exec_spaw/8
+ 4971 pts/1    S      0:00 dbus-launch --autolaunch 94df2b1e72814158ad3cc1098874bae9 --binary-syntax --close-stderr
+ 4972 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 5882 ?        S      0:00 [kworker/u2:1]
+ 5961 ?        S      0:00 [kworker/0:0]
+ 6204 ?        S      0:00 [kworker/u2:0]
+ 6439 ?        S      0:00 [kworker/u2:2]
+ 6450 ?        S      0:00 [kworker/0:2]
+ 6510 ?        S      0:00 [kworker/u2:3]
+ 6732 ?        Ss     0:00 /lib/systemd/systemd-hostnamed
+ 6735 ?        S      0:00 [kworker/0:1]
+ 6737 pts/1    R+     0:00 ps -ax
